@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Job Application Form</legend>
+      <label>Full Name:</label>
+      <input type="text" placeholder="Enter your full name"><br><br>
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email"><br><br>
+      <label>Password:</label>
+      <input type="password"><br><br>
+      <label>Date of Birth:</label>
+      <input type="date"><br><br>
+      <label>Gender</label>
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="female">Female<br><br>
+      <label>Upload Resume:</label>
+      <input type="file"><br><br>
+      <label>Skills:</label>
+      <textarea rows="10" cols="50" placeholder="List your skills here..."></textarea><br><br>
+      <label>Job Role:</label>
+      <select name="Job">
+        <option value="frontend developer">Frontend Developer</option>
+        <option value="backend developer">Backend Developer</option>
+
+
+      </select><br><br>
+      <label>Experience Level:</label>
+      <input type="text"><br><br>
+      <label>Expected Salary ($):</label>
+      <input type="range" id="moneyRange" name="money" min="0" max="5000">5000<br><br>
+      <input type="checkbox"> I agree to the terms and conditions.<br><br>
+      <button>Submit Application</button>
+      <button>Reset Form</button>
+
+
+      
+      
+    </fieldset>
+  </form>
+</body>
+</html>
